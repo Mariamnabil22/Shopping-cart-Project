@@ -6,7 +6,7 @@ import streamlit as st
 
 st.set_page_config(layout="wide", page_title="Shopping Cart Dashboard")
 
-csv_file_path = r'D:\Epsilon Python\40 session\combined_data.csv'
+csv_file_path = 'combined_data.csv'
 
 if os.path.exists(csv_file_path):
     combined_data = pd.read_csv(csv_file_path)
